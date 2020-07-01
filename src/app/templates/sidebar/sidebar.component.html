@@ -1,0 +1,55 @@
+<!-- ========== Left Sidebar Start ========== -->
+<div class="left side-menu">
+    <div class="slimscroll-menu" id="remove-scroll">
+
+        <!--- Sidemenu -->
+        <div id="sidebar-menu">
+            <!-- Left Menu Start -->
+            <ul class="metismenu" id="side-menu">
+                <li class="menu-title">Navigation</li>
+                <li>
+                    <a href="javascript: void(0);">
+                        <i class="ion-md-stats"></i><span> Admin Dashboard <span class="menu-arrow"></span></span>
+                    </a>
+                    <ul class="nav-second-level" aria-expanded=false>
+                        <li><a [routerLink]="['/']"> Analysts' Rankings </a></li>
+                        <li><a [routerLink]="['/managers']"> Managers' Rankings </a></li>
+                        <li><a [routerLink]="['/matching']"> Matching Results </a></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <a href="javascript: void(0);"><i class="ion-md-create"></i> <span> My Rankings </span> <span class="menu-arrow"></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a [routerLink]="['/enter-rankings']"> Enter My Rankings </a></li>
+                        <li><a [routerLink]="['/view-match']"> View My Match </a></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <a href="javascript: void(0);"><i class="ion-md-help-circle"></i> <span> Help & Support </span> <span class="menu-arrow"></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a [routerLink]="['/about']"> About This App </a></li>
+                        <li><a [routerLink]="['/how-to-use']"> How to Use This App </a></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <a href="javascript: void(0);"><i class="ion-md-person"></i> <span> Authentication </span> <span class="menu-arrow"></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a [routerLink]="['/login']"> Login </a></li>
+                        <li><a href="#"> Logout </a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+        <!-- Sidebar -->
+        <div class="clearfix"></div>
+
+    </div>
+    <!-- Sidebar -left -->
+
+</div>
+<!-- Left Sidebar End -->
